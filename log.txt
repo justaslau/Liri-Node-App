@@ -117,3 +117,15 @@
 
  movie-this batman
  Batman 23 Jun 1989 USA, UK English, French, Spanish 7.5 72% 
+
+ spotify-this-song "Open Season"
+ 1 High Highs Open Season Open Season 2013-01-29 
+ 2 Orgone Open Season Bacano 2008-01-01 
+ 3 Josef Salvat Open Season - Gryffin Remix Open Season (Gryffin Remix) 2015-09-04 
+ 4 High Highs Bridge Open Season (Deluxe Edition) 2014-01-27 
+ 5 High Highs Open Season Pitch Perfect (More Music From The Motion Picture) EP 2012-01-01 
+ 6 Josef Salvat Open Season In Your Prime - EP 2014-09-19 
+ 7 High Highs Open Season Open Season (Deluxe Edition) 2014-01-27 
+ 8 High Highs Bridge Open Season 2013-01-29 
+ 9 Josef Salvat Open Season Night Swim (Deluxe) 2016-02-19 
+ 10 JILLZAY Бар "2 лесбухи" Open Season 2017-03-08 
