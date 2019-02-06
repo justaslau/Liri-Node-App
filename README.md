@@ -9,20 +9,14 @@ In the command line, the user types in one of 4 commands:
 - `do-what-it-says` to run command from random.txt file
 
 ## concert-this
-The user types in `concert-this` and the name of a band/artist and liri.js takes that information and makes a call to the bands in town api. The output displays the name of the venue, venue location, and date of the event.
+The user types in `concert-this` and the name of a band/artist and liri.js takes that information and makes a call to the **Bands in Town API**. The output displays the name of the venue, venue location, and date of the event.
 
 ![concert-this](images/concert.png)
 
-## concert-this
-![concert-this](concertThis.png) 
+## spotify-this-song
+The user types in `movie-this` and the name of a movie. liri.js takes that information and makes a call to the **OMDB API**. The output displays the title of the movie, year, imdb rating, rotten tomatoes rating, country where it was produces, language of the movie, plot, and the actors in the movie. 
 
-The user types in 'concert-this' and the name of a band/artist and liri.js takes that information and makes a call to the bands in town api. The output displays the name of the venue, venue location, and date of the event.
-
-
-## movie-this
-![movie-this](movieThis.png) 
-
-The user types in 'movie-this' and the name of a movie. Liri.js takes that information and makes a call to the omdb api. The output displays the title of the movie, year, imdb rating, rotten tomatoes rating, country where it was produces, language of the movie, plot, and the actors in the movie. 
+![movie-this](images/spotify.png) 
 
 
 ## spotify-this-song
