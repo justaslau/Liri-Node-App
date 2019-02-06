@@ -22,7 +22,17 @@ The user types in `spotify-this-song` and the name of a song. liri.js takes that
 ## movie-this
 The user types in `movie-this` and the name of a movie. liri.js takes that information and makes a call to the **OMDB API**. The output displays the title of the movie, year, imdb rating, rotten tomatoes rating, country where it was produces and language of the movie.
 
+![movie-this](images/movie.png)
+
+## do-what-it-says
+The user types in `do-what-it-says` and the liri.js file reads the random.txt file and runs that in the command line.
+- readme.txt content
+```
+spotify-this-song,"Open Season"
+```
+
 ![movie-this](images/movie.png) 
+
 
 
 
