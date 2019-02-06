@@ -5,9 +5,29 @@ var spotify = new Spotify(keys.spotify);
 var axios = require("axios");
 var moment = require("moment");
 var Table = require('cli-table');
+
+// Function to append users' input to log TXT file
+function logToFile(table, command, input) {
+	var newLine = "\n";
+	var appendData = [newLine + command + input + newLine];
+	for (var i = 0; i < table.length; i++) {
+		for (var j = 0; j < table[i].length; j++) {
+			appendData.push(table[i][j]);
+		}
+		appendData.push(newLine);
+	}
+	fs.appendFile("log.txt", appendData.join(" "), function(err) {
+		if (err) {
+			console.log("Error: " + err);
+		} else {
+			console.log("log.txt was updated.")
+		}
+	});
+}
+
 module.exports = {
 	// Function to find concert and print info
-	searchConcert: function(apiURL) {
+	searchConcert: function(apiURL, inputDetail) {
 		axios.get(apiURL).then(function(response) {
 			var recordsFound = response.data.length;
 			if (recordsFound !== 0) {
@@ -23,6 +43,7 @@ module.exports = {
 					table.push([i + 1, venueName, venueLocation, dateOfEvent]);
 				}
 				console.log(table.toString());
+				logToFile(table, " concert-this ", inputDetail);
 			} else {
 				console.log("Events not found by this artist/band.")
 			}
@@ -50,6 +71,7 @@ module.exports = {
 					table.push([i + 1, artist, song, album, released]);
 				}
 				console.log(table.toString());
+				logToFile(table, " spotify-this-song ", inputDetail);
 			} else {
 				console.log("Song or artist not found.")
 			}
@@ -58,7 +80,7 @@ module.exports = {
 		});
 	},
 	// Function to find movie and print info
-	searchMovie: function(apiURL) {
+	searchMovie: function(apiURL, inputDetail) {
 		axios.get(apiURL).then(function(response) {
 			var tableHead = ["Movie Title", "Released", "Country", "Language", "IMDB", "Tomatoes"];
 			var table = new Table({
@@ -78,11 +100,8 @@ module.exports = {
 				}
 				table.push([movieTitle, movieReleased, movieCountry, movieLanguage, imdbRating, tomatoesRating]);
 				console.log(table.toString());
+				logToFile(table, " movie-this ", inputDetail);
 			}
 		});
-	},
-	// Function to append users' input to TXT file
-	logToFile: function(inputDetail) {
-		console.log("log to file " + inputDetail);
 	}
 }
