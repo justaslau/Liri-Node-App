@@ -3,10 +3,10 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 ## Commands
 In the command line, the user types in one of 4 commands:
-`concert-this`
-`spotify-this-song`
-`movie-this`
-`do-what-it-says`
+- `concert-this`
+- `spotify-this-song`
+- `movie-this`
+- `do-what-it-says`
 
 ## do-what-it-says
 ![do-what-it-says](doWhatItSays.png) 
