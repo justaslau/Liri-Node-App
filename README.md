@@ -1,12 +1,12 @@
 # Liri-Node-App
 LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data and logs data and commands to TXT file.
 
-## Commands
+## 1 Commands
 In the command line, the user types in one of 4 commands:
-- `concert-this`
-- `spotify-this-song`
-- `movie-this`
-- `do-what-it-says`
+- **1.1** `concert-this`
+- **1.2** `spotify-this-song`
+- **1.3** `movie-this`
+- **1.4** `do-what-it-says`
 
 ## do-what-it-says
 ![do-what-it-says](doWhatItSays.png) 
