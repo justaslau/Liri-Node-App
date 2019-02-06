@@ -13,16 +13,18 @@ The user types in `concert-this` and the name of a band/artist and liri.js takes
 
 ![concert-this](images/concert.png)
 
-## spotify-this-song
-The user types in `movie-this` and the name of a movie. liri.js takes that information and makes a call to the **OMDB API**. The output displays the title of the movie, year, imdb rating, rotten tomatoes rating, country where it was produces, language of the movie, plot, and the actors in the movie. 
-
-![movie-this](images/spotify.png) 
-
 
 ## spotify-this-song
-![spotify-this-song](spotifyThis.png)
+The user types in `spotify-this-song` and the name of a song. liri.js takes that information and makes a call to the **SPOTIFY API**. The output displays the artist name, song name, and the album that the song is from. If the user does not initially specify a song, then 'The Sign' by Ace of Spades is displayed.
 
-The user types in 'spotify-this-song' and the name of a song. Liri.js takes that information and makes a call to the spotify api. The output displays the artist name, song name, preview link (if availabe), and the album that the song is from. If the user does not initially specify a song, then 'The Sign' by Ace of Spades is displayed.
+![spotify-this-song](images/spotify.png)
+
+## movie-this
+The user types in `movie-this` and the name of a movie. liri.js takes that information and makes a call to the **OMDB API**. The output displays the title of the movie, year, imdb rating, rotten tomatoes rating, country where it was produces and language of the movie.
+
+![movie-this](images/movie.png) 
+
+
 
 
 ## log.txt file
