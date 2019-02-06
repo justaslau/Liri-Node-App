@@ -35,11 +35,6 @@ spotify-this-song,"Open Season"
 
 ![do-what-it-says](images/doit.png)
 
-
-
-
-
 ## log.txt file
-![log.txt](logSS.png)
-Once the user inputs the info that they are looking for, that output is then appended to a 'log.txt' file.
-In this case, the user utilized all of the commands.
+Once the user inputs the info that they are looking for, that output is then appended to a `log.txt` file.
+![log.txt](images/log.png)
