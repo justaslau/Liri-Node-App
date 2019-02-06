@@ -25,7 +25,7 @@ The user types in `movie-this` and the name of a movie. liri.js takes that infor
 ![movie-this](images/movie.png)
 
 ## do-what-it-says
-The user types in `do-what-it-says` and the liri.js file reads the random.txt file and runs that in the command line.  
+The user types in `do-what-it-says` and the liri.js file reads the random.txt file and runs that in the command line. <br />
 **readme.txt**
 ```
 spotify-this-song,"Open Season"
