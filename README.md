@@ -1,19 +1,17 @@
 # Liri-Node-App
 LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data and logs data and commands to TXT file.
 
-## 1 Commands
+## Commands
 In the command line, the user types in one of 4 commands:
 - `concert-this` to find event information by passing argument (event name) 
 - `spotify-this-song` to find songs by passing argument (song name)
 - `movie-this` to find movie by passing argument (movie name)
 - `do-what-it-says` to run command from random.txt file
 
-## do-what-it-says
-![do-what-it-says](doWhatItSays.png) 
-![random.txt](randomSS.png)
+## concert-this
+The user types in `concert-this` and the name of a band/artist and liri.js takes that information and makes a call to the bands in town api. The output displays the name of the venue, venue location, and date of the event.
 
-The user types in 'do-what-it-says' and the liri.js file reads the random.text file and runs that in the command line.
-
+![concert-this](images/concert.png)
 
 ## concert-this
 ![concert-this](concertThis.png) 
